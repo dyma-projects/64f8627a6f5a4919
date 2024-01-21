@@ -1,0 +1,8 @@
+<input
+  #input
+  type="text"
+  placeholder="Comment vous appelez-vous ?"
+  [value]="name"
+  (keyup)="updateName(input.value)"
+/>
+<p>Bonjour {{ name }}</p>
